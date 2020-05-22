@@ -20,8 +20,7 @@ userNameInput.onkeydown = (event) => {
   }
 };
 assessmentButton.onclick = () => {
-  //ボタンが押されたら反応する、無名関数=名前を持たない関数。
-  //エクセルでいうイベント関数？
+  //ボタンが押されたら反応する
   const userName = userNameInput.value;
   //名前が空欄の時は処理を終了する
   if (userName.length === 0) {
